@@ -52,6 +52,7 @@ class ProjectHelper:
              else:
                  self.project_cache = []
              return list(self.project_cache)
+        self.project_cache = None
 
 
     def del_project(self, index):
